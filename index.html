@@ -18,9 +18,14 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href="vendor/devicons/css/devicons.css" rel="stylesheet">
+	
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/brandon.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,6 +63,9 @@
                     <li>
                         <a class="page-scroll" href="#project">Projects</a>
                     </li>
+					<li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -73,79 +81,145 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-						<!-- <img class="img-responsive center-block" src="img/circle.png" width="200" height="200" alt=""> -->
-                        <h1 align="right" class="brand-heading";>Brandon Chan</h1>
-                        <p align="right" class="intro-text">Developer - Web Designer - Foodie
-                            <br></p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
+                   	<div class="col-lg-6" >
+						<br></br>
+					</div>
+					<div class="col-lg-6">
+						<div style="width:98%">
+							<h1 class="brand-heading">Brandon Chan</h1>
+						</div>
+						<br></br>
+						<ul class="list-inline banner-social-buttons" style="width:99%" >
+							<li>
+								<a href="mailto:brandon.chan@queensu.ca" class="btn btn-default fa-4x"><i class="fa fa-envelope-o fa-fw"></i></a>
+							</li>
+							<li>
+								<a href="https://linkedin.com/in/bchan2" class="btn btn-default fa-4x"><i class="fa fa-linkedin-square fa-fw"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/BrandonCChan" class="btn btn-default fa-4x"><i class="fa fa-github fa-fw"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/bchanz/?hl=en" class="btn btn-default fa-4x"><i class="fa fa-instagram fa-fw"></i></a>
+							</li>
+						</ul>
+					</div>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-				<br></br>
-				<br></br>
-                <h2>About</h2>
-				<p>Hi, my name is Brandon Chan! I'm currently pursuing a Masters Degree in Computer Science with a focus on Machine Learning and Big Data Analytics in healthcare. Passionate for technology and helping others, I've previously worked on image-guided surgical systems as a research assistant at Queen's University. My skills in graphic design and web development have been refined through part-time freelance work, and my former role as IT Director of Queen's Health Outreach. </p>    <br></br>
-				<br></br>
-            </div>
-        </div>
+    <section id="about">
+		<div class="about-section">
+			<div class="container">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h2 align="center">About</h2>
+					<p align="justify">I'm currently pursuing a Masters Degree in Computer Science at Queen’s University, focusing on the application of Machine Learning and Big Data Analytics in healthcare. Passionate for technology and helping others, I've previously worked on image-guided surgical systems as a research assistant at Queen's University. I’ve also done work as a freelance web developer and graphic designer. Outside of work, I’m an avid outdoorsman and cook. From hiking up mountains to playing hockey, I love to spend my free time being active.</p>
+				</div>
+			</div>
+		</div>
     </section>
 	
     <!-- Projects Section -->
-    <section id="project" class="text-center">
-        <div class="download-section">
+    <section id="project">
+        <div class="projects-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
 					<div class="row">
-						<h2>Projects</h2>
+						<h2 style="color:white" align="center">Projects</h2>
 						
 						<div class="col-sm-6">
-						<img class="img-responsive" src="img/TBS.png" alt="Texture Based Segmentation" onclick="window.open('https://brandoncchan.github.io/texture_based_segmentation/', '_blank');">
+							<img class="img-responsive" src="img/TBS.png" alt="Texture Based Segmentation" onclick="window.open('https://brandoncchan.github.io/texture_based_segmentation/', '_blank');">
 						</div>
 						
 						<div class="col-sm-6">
-						<img class="img-responsive" src="img/QHO.gif" alt="QHO Website" onclick="window.open('http://www.qho.ca/', '_blank');">
+							<img class="img-responsive" src="img/QHO.gif" alt="QHO Website" onclick="window.open('http://www.qho.ca/', '_blank');">
 						</div>
-					
-						<br></b>
 					</div>
                 </div>
             </div>
         </div>
     </section> 
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+	<!-- Skills Section -->
+	<section id="skills" class="container text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>Feel free to email me regarding work or to just say hello!</p>
-                <ul class="list-inline banner-social-buttons">
-					<li>
-						<a href="mailto:brandon.chan@queensu.ca" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i></a>
-					</li>
-                    <li>
-                        <a href="https://linkedin.com/in/bchan2" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/BrandonCChan" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/bchanz/?hl=en" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i></a>
-                    </li>
-                </ul>
+            <div class="my-auto">
+				<br></br>
+				<br></br>
+				<img class="img-fluid mb-5 d-block mx-auto" src="img/coding.png" alt="">
+                <h2>Skills</h2>
+				<div class="subheading mb-3"><h4>Programming Languages &amp; Tools</h4></div>
+			    <ul class="list-inline list-icons">
+				<li class="list-inline-item">
+				  <i class="devicons devicons-python"></i>
+				</li>
+				<li class="list-inline-item">	
+				  <i class="devicon-cplusplus-plain"></i>
+				</li>
+				<li class="list-inline-item">	
+				  <i class="devicon-java-plain"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicons devicons-html5"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicons devicons-css3"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicons devicons-bootstrap"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicons devicons-php"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicons devicons-wordpress"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicon-git-plain"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicon-linux-plain"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicon-windows8-plain"></i>
+				</li>
+				<li class="list-inline-item">
+				  <i class="devicon-photoshop-plain"></i>
+				</li>
+			  </ul>
+				<br></br>
+				<br></br>
+				<br></br>
             </div>
         </div>
     </section>
+	
+    <!-- Contact Section -->
+	<section id="contact">
+		<div class="contact-section"> 
+			<div class="container">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="row">
+						<h1 align="center"> Contact </h1>
+						<p align="center">Feel free to contact me regarding work, opportunities or to just say hi!</p>
+						<ul class="list-inline" align="center" style="width:99%" >
+							<li>
+								<a href="mailto:brandon.chan@queensu.ca" class="btn btn-contact fa-4x"><i class="fa fa-envelope-o fa-fw"></i></a>
+							</li>
+							<li>
+								<a href="https://linkedin.com/in/bchan2" class="btn btn-contact fa-4x"><i class="fa fa-linkedin-square fa-fw"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/BrandonCChan" class="btn btn-contact fa-4x"><i class="fa fa-github fa-fw"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
 
     <!-- Footer -->
     <footer>
